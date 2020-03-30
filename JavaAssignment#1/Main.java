@@ -13,12 +13,12 @@ public class Main {
     public static void main(String[] args) {
 
         String pattern = "";
-
+        String path=System.getProperty("user.home");
         while (!pattern.equals("quit")) {
 
             Scanner input = new Scanner(System.in);
 
-            File file = new File("/home/fazil/Documents/Java/");
+            File file = new File(path);
 
             File[] files = file.listFiles();
 
@@ -28,7 +28,7 @@ public class Main {
 
             FindingFiles findingFiles = new FindingFiles(pattern);
 
-           for(String fileName: findingFiles.findFiles(files))
+            for(String fileName: findingFiles.findFiles(files))
 
                 System.out.println("Absolute paths: "+ fileName);
 

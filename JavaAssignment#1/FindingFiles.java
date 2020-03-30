@@ -1,15 +1,18 @@
 import java.io.File;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class FindingFiles {
-    String pattern;
+    String regx;
+    Pattern pattern;
+    List<String> foundFiles;
 
-    ArrayList<String> foundFiles;
+    public FindingFiles(String regx){
+        this.regx=regx;
 
-    public FindingFiles(String pattern){
-        this.pattern=pattern;
+        pattern=Pattern.compile(regx);
 
         foundFiles=new ArrayList<>();
     }
@@ -17,7 +20,6 @@ public class FindingFiles {
     // Checks whether regular expression matches the file name
     public boolean patternMatched(String regx, String filename){
 
-        Pattern pattern=Pattern.compile(regx);
 
         Matcher matcher=pattern.matcher(filename);
 
@@ -26,7 +28,8 @@ public class FindingFiles {
 
 
     //Add files names that matched the pattern to the arraylist foundFiles
-    public ArrayList<String> findFiles(File[] files){
+    public List<String> findFiles(File[] files){
+
 
         for(File file:files){
 
@@ -37,12 +40,12 @@ public class FindingFiles {
 
             else {
 
-                if(patternMatched(pattern,file.getName())){
+                if(patternMatched(regx,file.getName())){
 
-                        System.out.println(file.getName());
+                    System.out.println(file.getName());
 
-                        foundFiles.add(file.getAbsolutePath());
-                    }
+                    foundFiles.add(file.getAbsolutePath());
+                }
             }
         }
         return foundFiles;
