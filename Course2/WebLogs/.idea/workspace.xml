@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="829fedb4-10ad-4b81-ae1d-60bd96a32f3e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZIFNlHQfgZPNzoQdhCPjJIVRWz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tester" />
+      <module name="WebLogs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Tester" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="829fedb4-10ad-4b81-ae1d-60bd96a32f3e" name="Default Changelist" comment="" />
+      <created>1584518663051</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584518663051</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="67" y="59" width="848" height="677" key="#Project_Structure" timestamp="1584535340772">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="67" y="59" width="848" height="677" key="#Project_Structure/67.27.1299.741@67.27.1299.741" timestamp="1584535340772" />
+    <state x="715" y="201" width="651" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584544901007">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="715" y="201" width="651" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1584544901007" />
+    <state x="748" y="47" width="576" height="699" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1584522060490">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="748" y="47" width="576" height="699" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/67.27.1299.741@67.27.1299.741" timestamp="1584522060490" />
+    <state x="774" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584544850176">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="774" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1299.741@67.27.1299.741" timestamp="1584544850176" />
+    <state x="716" y="121" width="501" height="484" key="FileChooserDialogImpl" timestamp="1584603217382">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="716" y="121" width="501" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1584603217382" />
+    <state width="604" height="175" key="GridCell.Tab.0.bottom" timestamp="1584558223174">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="604" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1584558223174" />
+    <state width="604" height="175" key="GridCell.Tab.0.center" timestamp="1584558223173">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="604" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1584558223173" />
+    <state width="604" height="175" key="GridCell.Tab.0.left" timestamp="1584558223173">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="604" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1584558223173" />
+    <state width="604" height="175" key="GridCell.Tab.0.right" timestamp="1584558223173">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="604" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1584558223173" />
+    <state x="678" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1584602963870">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="678" y="225" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1584602963870" />
+    <state x="704" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1584541082571">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="704" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1584541082571" />
+  </component>
+</project>
