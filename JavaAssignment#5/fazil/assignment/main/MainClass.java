@@ -8,7 +8,7 @@ package fazil.assignment.main;
 
 import fazil.assignment.data.DefaultInitializationAssignment;
 
-import fazil.assignment.singleton.StaticInitializationAssignment2;
+import fazil.assignment.singleton.*;
 
 public class MainClass {
 
@@ -21,11 +21,10 @@ public class MainClass {
 
         defaultInitializationAssignment.printLocalFields();
 
-        StaticInitializationAssignment2 staticInitializationAssignment2=
-                new StaticInitializationAssignment2();
+        Singleton singleton=
+                Singleton.staticMethod();
 
-        staticInitializationAssignment2.printStr();
+        singleton.printStr();
 
-        StaticInitializationAssignment2.staticMethod();
     }
 }

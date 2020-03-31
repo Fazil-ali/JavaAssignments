@@ -21,20 +21,21 @@ public class MainClass {
 
         Ping ping = new Ping(hostName, packetCount);
 
-        if (ping.isHostExists(hostName)) {
+        if (ping.isCountCorrect()) {
+            if (ping.isHostExists(hostName)) {
 
-            ping.getTimeList();
+                ping.getTimeList();
 
-            ping.getMedianTime();
+                ping.getMedianTime();
 
-        }
-        else {
+            } else {
 
-            System.out.println(" Invalid host ");
-        }
+                System.out.println(" Invalid host ");
+            }
+        } else
+            System.out.println("Sorry, Packetcount number should be positive and odd ");
     }
 }
-
 
 
 /* INPUT :

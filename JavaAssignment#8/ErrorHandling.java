@@ -1,23 +1,23 @@
 
 import java.util.Scanner;
 
-class dollarException extends Exception{
-    public dollarException(String exceptionMsg){
+class DollarException extends Exception{
+    public DollarException(String exceptionMsg){
         super(exceptionMsg);
 
     }
 
 }
-class atTheRateException extends Exception{
-    public atTheRateException(String exceptionMsg){
+class AtTheRateException extends Exception{
+    public AtTheRateException(String exceptionMsg){
         super(exceptionMsg);
 
     }
 }
-class exclamationException extends Exception{
-    public exclamationException(String excetionMsg){
+class ExclamationException extends Exception{
+    public ExclamationException(String exceptionMsg){
 
-        super(excetionMsg);
+        super(exceptionMsg);
 
     }
 }
@@ -28,15 +28,15 @@ public class ErrorHandling {
 
             if (input.equals("$"))
 
-                throw new dollarException("Dollar Exception");
+                throw new DollarException("Dollar Exception");
 
             else if (input.equals("@"))
 
-                throw new atTheRateException(" @ Exception");
+                throw new AtTheRateException(" @ Exception");
 
             else if (input.equals("!"))
 
-                throw new exclamationException("Exclamation Exception");
+                throw new ExclamationException("Exclamation Exception");
 
             else if (input.equals(""))
 
@@ -47,7 +47,7 @@ public class ErrorHandling {
                 System.out.println(input);
 
 
-        } catch (dollarException | atTheRateException | exclamationException e) {
+        } catch (DollarException | AtTheRateException | ExclamationException e) {
 
             System.out.println(e.getMessage());
         } catch (NullPointerException e) {

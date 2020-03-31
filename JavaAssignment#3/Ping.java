@@ -23,6 +23,11 @@ public class Ping {
 
         this.packetCount=count;
     }
+    public boolean isCountCorrect(){
+        if(packetCount>2 && (packetCount%2)!=0)
+            return true;
+        return false;
+    }
 
     public boolean isHostExists(String hostName) throws IOException {
 
@@ -64,7 +69,6 @@ public class Ping {
                 +ipAddress+" exits");
 
         timeList=new ArrayList<Double>();
-
         Process process=Runtime.getRuntime()
                 .exec("ping -c "+packetCount+" "+hostName);
 
@@ -87,14 +91,18 @@ public class Ping {
         }
 
     }
+    // gets the medium element index
+    public int getMedianIndex(int packetCount){
+        return (packetCount/2)+1;
+    }
     public void getMedianTime(){
 
         //Sorting the timeList
         Collections.sort(timeList);
 
         System.out.println(timeList);
-
-        System.out.println("Median Time is : "+timeList.get(2));
+        int medianIndex=getMedianIndex(packetCount);
+        System.out.println("Median Time is : "+timeList.get(medianIndex));
 
         //Middle element gives the median time
     }

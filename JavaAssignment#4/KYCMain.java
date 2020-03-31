@@ -47,7 +47,7 @@ public class KYCMain {
 
         int n=scanner.nextInt();
 
-        System.out.println("Enter the signup and current dates");
+
 
         String[] signUpDates=new String[n];
 
@@ -55,14 +55,16 @@ public class KYCMain {
 
         for(int i=0;i<n;i++){
 
+            System.out.println("Enter the signup and current dates for testcase"+(i+1));
+
             signUpDates[i]=scanner.next();
 
             currDate[i]=scanner.next();
-        }
-
-        for (int i=0;i<n;i++){
 
             kyc.findRange(signUpDates[i],currDate[i]);
+
+
+
         }
 
     }
